@@ -13,11 +13,19 @@ export default defineConfig({
     ],
 
     sidebar: [
+      // {
+      //   text: 'Examples',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // }
       {
-        text: 'Examples',
+        text: '2025',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '1月大事记', link: '/2025/1' },
+          { text: '2月大事记', link: '/2025/2' },
+          { text: '3月大事记', link: '/2025/3' }
         ]
       }
     ],
