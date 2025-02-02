@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base : 'logoftech',
+  base : 'LogOfTech',
   title: "LOT",
   description: "log of tech",
   themeConfig: {
