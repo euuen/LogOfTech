@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      // { text: 'Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -26,6 +26,13 @@ export default defineConfig({
           { text: '1月大事记', link: '/2025/1' },
           { text: '2月大事记', link: '/2025/2' },
           { text: '3月大事记', link: '/2025/3' }
+        ]
+      },
+      {
+        text: '语文作业',
+        items: [
+          { text: '大自然', link: 'homework/nature'},
+          { text: '王阳明', link: 'homework/read'}
         ]
       }
     ],

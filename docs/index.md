@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 2025年
       link: /2025/2
+    - theme: brand
+      text: 语文作业
+      link: /homework/nature
 
 features:
   - title: 折磨自己
