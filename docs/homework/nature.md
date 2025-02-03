@@ -56,6 +56,6 @@
 
 <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113690217089402&bvid=BV1VKkbYDESB&cid=27454997122&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" style="width: 100%;height: 400px"></iframe>
 
->子非秋月的何为系列之一，何为浮躁，如何克制浮躁。
+>子非秋月的何为系列之一，何为浮躁，如何克制浮躁。非常非常推荐看他的视频。
 
 挖笋，其实，不仅仅是一个体力活，也是一个脑力活，也是一个检验内心的活。
