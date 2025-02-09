@@ -9,7 +9,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: '主页面', link: '/' },
+      { text: '诗记', link: '/2025/1'},
+      { text: '吐槽', link: '/talks/java'}
       // { text: 'Examples', link: '/markdown-examples' }
     ],
     search: {
