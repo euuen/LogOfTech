@@ -8,11 +8,11 @@ hero:
   tagline: 记录折磨自己的过程
   actions:
     - theme: brand
-      text: 2025年
-      link: /2025/2
-    - theme: brand
-      text: 语文作业
-      link: /homework/nature
+      text: Get Started
+      link: /2025/1
+    # - theme: brand
+      # text: 语文作业
+      # link: /homework/nature
 
 features:
   - title: 折磨自己
