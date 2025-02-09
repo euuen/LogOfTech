@@ -1,88 +1,88 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base : '/LogOfTech',
-  title: "LOT",
-  
-  description: "log of tech",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: '主页面', link: '/' },
-      { text: '诗记', link: '/2025/1'},
-      { text: '吐槽', link: '/talks/java'}
-      // { text: 'Examples', link: '/markdown-examples' }
-    ],
-    search: {
-      provider: 'local',
-      options: {
-        miniSearch: {
-          /**
-           * @type {Pick<import('minisearch').Options, 'extractField' | 'tokenize' | 'processTerm'>}
-           */
-          options: {
-            /* ... */
-          },
-          /**
-           * @type {import('minisearch').SearchOptions}
-           * @default
-           * { fuzzy: 0.2, prefix: true, boost: { title: 4, text: 2, titles: 1 } }
-           */
-          searchOptions: {
-            /* ... */
-          }
-        }
-      }
-    },
-    sidebar: {
-      "/2025/": [
-        {
-          text: '2025',
-          items: [
-            { text: '1月大事记', link: '/2025/1' },
-            { text: '2月大事记', link: '/2025/2' },
-            { text: '3月大事记', link: '/2025/3' }
-          ]
-        }
-      ],
-      "homework": [
-        {
-          text: "语文作业",
-          items: [
-            { text: "大自然", link: "/homework/nature" },
-            { text: "王阳明", link: "/homework/read" }
-          ]
-        }
-      ]
-    },
-    // [
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // }
-      // {
-      //   text: '2025',
-      //   items: [
-      //     { text: '1月大事记', link: '/2025/1' },
-      //     { text: '2月大事记', link: '/2025/2' },
-      //     { text: '3月大事记', link: '/2025/3' }
-      //   ]
-      // },
-      // {
-      //   text: '语文作业',
-      //   items: [
-      //     { text: '大自然', link: 'homework/nature'},
-      //     { text: '王阳明', link: 'homework/read'}
-      //   ]
-      // }
-    // ],
+    base : '/LogOfTech',
+    title: "LOT",
+    description: "log of tech",
+    themeConfig: {
+        nav: [
+            { text: '诗记', link: '/2025/1'},
+            { text: '吐槽', link: '/talks/java'}
+        ],
+        sidebar: {
+            "/2025/": [
+                {
+                    text: '2025',
+                    collapsed: false,
+                    items: [
+                        { text: '1月大事记', link: '/2025/1' },
+                        { text: '2月大事记', link: '/2025/2' },
+                        { text: '3月大事记', link: '/2025/3' }
+                    ]
+                }
+            ],
+            "/homework/": [
+                {
+                    text: "语文作业",
+                    collapsed: true,
+                    items: [
+                        { text: "大自然", link: "/homework/nature" },
+                        { text: "王阳明", link: "/homework/read" }
+                    ]
+                }
+            ],
+            "/test/": [
+                {
+                    text: "111",
+                    collapsed : true,
+                    items: [
+                        {
+                            text: "222",
+                            collapsed: true,
+                            items: [
+                                {
+                                    text: "333",
+                                    collapsed: true,
+                                    items: [
+                                        {
+                                            text: "444",
+                                            collapsed: true,
+                                            items: [
+                                                {
+                                                    text: "555"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+        search: {
+            provider: 'local'
+        },
+
+        docFooter: {
+			prev: '上一篇文章',
+			next: '下一篇文章',
+		},
+        returnToTopLabel: '返回顶部',
+        sidebarMenuLabel: '菜单',
+        outlineTitle: '目录',
+        lastUpdatedText: '最后更新于',
+        lastUpdated: true,
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+        ],
+    
+        footer: {
+			message: 'developed by euuen',
+			copyright:
+				'Copyright © 2025 euuen',
+		},
+    }
 })

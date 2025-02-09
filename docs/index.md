@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: 语文作业(放在这里挂着充数)
       link: /homework/nature
+    - theme: alt
+      text: 测试
+      link: /test/1
 
 features:
   - icon: 😭
