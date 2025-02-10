@@ -14,7 +14,7 @@ hero:
       link: /2025/1
     - theme: alt
       text: View on GitHub
-      link: https://github.com/euuen/LogOgTech
+      link: https://github.com/euuen/LogOfTech
     - theme: alt
       text: 语文作业(放在这里挂着充数)
       link: /homework/nature
